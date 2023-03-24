@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+body{
+ 
+    background-color: grey;
+}
+.head{
+
+height: 40px;
+background-color: white;
+}
+.list{
+    color: rgb(52, 156, 226);
+}
+.parant{
+
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+ 
+    position: relative;
+
+}
+.arrow{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+#arrow{
+    position: absolute;
+    top: 30px;
+    left: 420px;
+    font-size: larger;
+}
+
+.plus{
+    color: white;
+    background-color: rgb(17, 105, 221);
+    border-radius: 50%;
+
+}
+
+.add{
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    font-size: larger;
+}
+.hide{
+   text-decoration: none;
+}
+.child{
+    color: deepskyblue;
+    background-color: white;
+border-radius: 10px;
+width: 330px;
+height: 200px;
+position: absolute;
+    top: 100px;
+    left: 420px;
+    line-height: 2;
+    font-size: larger;
+    text-align: center;
+   
+}
+
+
+.checkbox1{
+    color: gray;
+    text-decoration: line-through;
+    
+}
+.checkbox2{
+    color: black;
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .head{
+        text-align: center;
+    }
+    .parant{
+        flex-direction: column;
+     
+      
+        
+    }
+    .child{
+        position: absolute;
+        left: 30px;
+    }
+    #arrow{
+        position: absolute;
+      
+        left: 30px;
+    }
+    #add{
+        position: absolute;
+       left: 175px;
+    }
+    .plus{
+      position: absolute;    
+      left: 10px;
+    
+    }
+    .add{
+      left: 180px;   
+     }
+     .hide{
+       display: none;
+     }
+}
+
+/* for tab view  */
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .head{
+        text-align: center;
+    }
+    .parant{
+        flex-direction: column;
+       
+        
+    }
+    .child{
+        position: absolute;
+        left: 30px;
+        height: 300px;
+        width: 400px;
+    }
+    #arrow{
+        position: absolute;
+      
+        left: 30px;
+    }
+    #add{
+        position: absolute;
+       left: 175px;
+    }
+    .plus{
+        position: absolute;   
+    
+    }
+    .add{
+      left: 180px;   
+     }
+     .hide{
+        display: none;
+     }
+}

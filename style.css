@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+}
+body{
+ 
+    background-color: grey;
+}
+.head{
+
+height: 40px;
+background-color: white;
+}
+.list{
+    color: rgb(53, 146, 239);
+}
+.parant{
+    display: flex;
+   
+    width: 100%;
+   
+position: relative;
+    
+
+
+}
+.plus{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+   
+}
+
+#add{
+    position: absolute;
+    top: 15px;
+    right: 150px;
+ 
+
+}
+
+.child{
+    color: deepskyblue;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+   
+  
+    padding: 20px 0 0 0;
+
+}
+.checkbox1{
+     color: rgb(173, 173, 173);
+     text-decoration: line-through;
+     line-height: 2;
+}
+.checkbox2{
+    color: black;
+    line-height: 2;
+}
+
+#child1{
+    position: absolute;
+    left: 80px;
+    top : 60px;
+
+}
+
+#child2{
+    position: absolute;
+    left: 400px;
+    top: 60px;
+}
+
+#child3{
+     position:absolute;
+     left: 700px;
+     top: 60px;
+}
+
+#child4{
+     position:absolute;
+    top: 370px;
+   left: 80px;
+   
+}
+#child5{
+     position:absolute;
+  
+     top: 370px;
+     left: 400px;
+
+}
+/* for mobile */
+  @media(max-width:600px){
+   
+    .head{
+        text-align: center;
+    }
+   
+    .parant{
+        flex-direction: column;
+    
+    
+         
+    }
+    .child{
+        width: 250px;
+        height: 200px;
+        background-color: white;
+    }
+  #child1{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+
+  }
+  #child2{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+        
+
+    }
+
+
+#child3{
+  position: absolute;
+  left: 50px;
+  top: 540px;
+
+  
+}
+#child4{
+  position: absolute;
+  left: 50px;
+  top: 780px;
+ 
+}
+
+#child5{
+  position: absolute;
+  left: 50px;
+  top: 1020px;
+
+}
+#add{
+   position: absolute;  
+}  
+   
+
+
+}
+ 
+  /* tab view  */
+ @media screen and (min-width:600px) and (max-width:1024px) {
+
+    .head{
+        text-align: center;
+    }
+
+    .parant{
+        flex-direction: column;
+        height: 1260px;
+         
+    }
+    .child{
+        width: 400px;
+        height: 200px;
+      
+    }
+    #child1 {
+        position: absolute;
+        left: 150px;
+        top: 60px;
+    }
+    
+
+#child2 {
+    position: absolute;
+   
+    left: 150px;
+    top: 300px;
+ }
+ #child3 {
+    position: absolute;
+    left: 150px;
+    top: 545px; 
+ }
+ #child4 {
+    position: absolute;
+    top: 788px;
+    left: 150px;
+ }
+ #child5 {
+    position: absolute;
+    top: 1034px;
+    left: 150px;
+}
+#add {
+    position: absolute;
+    top: 20px;
+    left: 280px;
+  }
+}
+
+

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+body{
+ 
+    background-color: grey;
+}
+.head{
+
+height: 40px;
+background-color: white;
+}
+.blure{
+    filter: blur(1px);
+}
+.list{
+    color: rgb(52, 156, 226);
+}
+.parant{
+
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+  
+    position: relative;
+
+}
+.arrow{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+#arrow{
+    position: absolute;
+    top: 30px;
+    left: 420px;
+    font-size: larger;
+}
+.link{
+    text-decoration: none;
+}
+.plus{
+    color: white;
+    background-color: rgb(17, 105, 221);
+    border-radius: 50%;
+}
+
+#add{
+    position: absolute;
+    top: 30px;
+    
+    font-size: larger;
+}
+.child{
+    color: deepskyblue;
+    background-color: white;
+border-radius: 10px;
+width: 330px;
+height: 200px;
+position: absolute;
+    top: 100px;
+    left: 420px;
+    line-height: 2;
+    font-size: larger;
+    text-align: center;
+   
+}
+
+
+.checkbox1{
+    color: gray;
+    text-decoration: line-through;
+    
+}
+.checkbox2{
+    color: black;
+    
+}
+
+.container{
+    display: flex;
+   
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+.box{
+    border-radius: 5px;
+    height: 170px;
+    width: 300px;
+    background-color: #cdcdcd;
+    color: blue;
+    position: absolute;
+    top: 240px;
+}
+.learn{
+    border: 1px solid #808080ab;
+    color: grey;
+    width: 80%;
+    height: 20px;
+    position:absolute;
+    top: 30px;
+    left: 10px;
+    border-radius: 2px;
+}
+.add{
+    color: white;
+    background-color: #0340ed;
+    border-radius: 5px;
+    position: absolute;
+    top: 370px;
+ 
+    height: 25px
+    
+}
+.cross{
+ color: black;
+   
+    position: absolute;
+    top: 240px;
+    left: 810px;
+    font-size: 20px;
+    font-weight: 200;
+text-decoration: none;
+   
+}
+
+@media (max-width:600px ){
+   .parant{
+    flex-direction: column;
+
+   }
+   .child{
+    position: absolute;
+    top: 80px;
+   left: 30px;
+   }
+   .cross{
+    
+    position: absolute;
+    top: 245px;
+    left: 325px;
+   }
+   #arrow{
+    position: absolute;
+    position: absolute;
+    top: 30px;
+    left: 5px; 
+
+ 
+ 
+ 
+}
+#add{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.cross{
+    position: absolute;
+    top: 240px;
+    left: 335px;
+}
+}
